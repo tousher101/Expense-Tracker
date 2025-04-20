@@ -1,0 +1,127 @@
+body{
+    background-color: rgb(70, 66, 66);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    box-sizing: border-box;
+    margin: auto;
+}
+h1{
+    text-align: center;
+}
+.input-display{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    gap: 15px;
+    margin-left: 20px;
+   
+}
+.data-disply{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    gap: 15px;
+    margin-top: 15px;
+    font-size: 2rem;
+    margin-left: 30px;
+
+ 
+}
+input{
+    height: 50px;
+    font-size: 1.5rem;
+    padding-left: 10px;
+    border-radius: 20px;
+    border: 1px solid;
+    
+}
+input::placeholder{
+    opacity: 0.6;
+}
+.submit-btn{
+   height: 50px;
+   width: 250px;
+   font-size: 1.5rem;
+   background-color: green;
+   border:none;
+   border-radius: 20px;
+   color: white;
+}
+.delete-btn{
+    height: 50px;
+    width: 250px;
+    font-size: 1.5rem;
+    background-color: red;
+    border:none;
+    border-radius: 20px;
+    color: white;
+}
+.total-expans{
+    font-size: 2rem;
+    color: red;
+   text-align: center;
+   margin-right: 430px;
+   font-weight: bold;
+}
+.date-div{
+    border: 1px solid black;
+    background-color: rgb(165, 55, 55);
+    border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+    display: flex;
+}
+
+.filter-div{
+    border: 1px solid black;
+    background-color: rgb(165, 55, 55);
+    border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+    display: flex;
+}
+.filter-btn-1{
+    height: 50px;
+    width: 250px;
+    font-size: 1.5rem;
+    background-color: rgb(95, 97, 202);
+    border:none;
+    border-radius: 20px;
+    color: white;
+    border: 1px solid black;
+    margin-left: 15px;
+
+}
+.filter-btn-2{
+    height: 50px;
+    width: 250px;
+    font-size: 1.5rem;
+    background-color: rgb(95, 97, 202);
+    border:none;
+    border-radius: 20px;
+    color: white;
+    border: 1px solid black;
+    margin-left: 15px;
+    
+}
+.filter-option{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.clear-btn{
+    height: 50px;
+    width: 50px;
+    margin-left: 15px;
+    background-color: rgb(189, 91, 140);
+    border: none;
+    font-size: 1rem;
+    border-radius: 25px;
+    font-weight: bold;
+}
+.btn-elm{
+    display: flex;
+   
+    
+}

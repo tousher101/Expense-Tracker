@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Expanse Tracker </title>
+        <link rel="stylesheet" href="expanse-tracker.css">
+
+    </head>
+
+    <body>
+        <h1>Expense Tracker</h1>
+        <div class="main-container">
+            <canvas  id="expenseChart"  height="40vh" width="80vw"></canvas>
+            <div class="filter-option">
+                <input class="input-filter" type="date">
+
+                 <div class="btn-elm">
+                <button class="clear-btn">X</button>
+               <button class="filter-btn-1">Filter</button>
+                </div>  
+                
+                <input class="input-filter-name" type="text" placeholder="Filter By Name">
+                <div class="btn-elm">
+                    <button class="filter-btn-2">Filter</button>
+                    <button class="clear-btn">X</button></div>
+                        </div>
+                  <div class="input-display">
+                <input class="input-expanse" type="text" placeholder="Enter Exnpanse Name">
+               <input class="input-amount" type="text" placeholder="Enter Amount">
+                <input class="input-date"   type="date">
+                <button class="submit-btn" type="submit">Add</button>
+              
+            </div>
+            <div class="data-disply">
+            </div>
+            <p class="total-expans"></p>
+        </div>
+       
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="Expense-tracker.js"></script>
+    </body>
+
+
+</html>
