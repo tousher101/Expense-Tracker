@@ -1,15 +1,15 @@
 # Expense Tracker App - Manage Your Expenses
 Fully Customized Expense tracking App crated by JavaScript and HTML and responsive UI using CSS.
 
-##features
--> Add Expense.
--> Edit Expense
--> Delete Expanse.
--> Auto Calculation.
--> Auto SUM.
--> Filter By Name.
--> Filter By Date.
--> Expanse Chart (using Chart.js)
+## Features
+- Add Expense.
+- Edit Expense
+- Delete Expanse.
+- Auto Calculation.
+- Auto SUM.
+- Filter By Name.
+- Filter By Date.
+- Expanse Chart (using Chart.js)
 
 
 
